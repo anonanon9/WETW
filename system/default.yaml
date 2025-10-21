@@ -1,0 +1,3 @@
+device: cuda
+torch_manual_seed: 42
+torch_cuda_manual_seed: 42

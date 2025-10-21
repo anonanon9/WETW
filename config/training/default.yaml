@@ -1,0 +1,20 @@
+
+# general training parameters
+size_batch: 200
+embed_batch: 2000
+num_epoch: 100000
+warping_window: 0.1
+weucl_dist_chunk_num: 1000000
+test_split: 0.2
+valid_split: 0.1
+train_all_pairs: False 
+target_dist_function: "dtw"
+early_stopping: True 
+
+# sampling parameters
+batch_loading_size: 1000000
+seasam_cardinality: 8
+dim_seasam: 8
+
+# scheduler parameters
+start_sched_after_epoch: 100

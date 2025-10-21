@@ -1,0 +1,12 @@
+# conf/config.yaml
+defaults:
+  - dataset: arrowhead
+  - encoder_model: default
+  - weight_model: default
+  - training: default
+  - logging: default
+  - system: default
+  - paths: default
+  - _self_
+
+exps_dir: /data/cpanourg/1-dtwrl/results

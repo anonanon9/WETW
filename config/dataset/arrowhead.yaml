@@ -1,0 +1,7 @@
+dataset_name: "ArrowHead"
+dataset_fp: "/data/cpanourg/99-temp/data/ArrowHead_train.bin"
+test_dataset_fp: "/data/cpanourg/99-temp/data/ArrowHead_test.bin"
+processed_train_fp: "/data/cpanourg/99-temp/data/train.bin"
+processed_test_fp: "/data/cpanourg/99-temp/data/test.bin"
+dim_series: 251
+output_dir: "/data/cpanourg/99-temp/data"

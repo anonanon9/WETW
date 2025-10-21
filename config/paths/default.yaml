@@ -1,0 +1,20 @@
+# exps_dir is the experiments directory and 
+# can be found in the main config file
+
+# sample paths (if sample was created)
+db_sorted_indices_path: ${exps_dir}/db_sorted_indices.bin
+seasam_libpath: /home/cpanourg/projects/wesee_wetw/lib/coconut_sample_glibc227.so
+seasam_sample_filepath: ${exps_dir}/seasam_sample.bin
+seasam_sample_idx_filepath: ${exps_dir}/seasam_sample_idxs.bin
+
+# train and validation distances filepaths prefixes  
+train_val_dist_prefix: ${exps_dir}/dists
+
+# state dict and config filepaths
+best_encoder_sd_fp: ${exps_dir}/encoder.pt
+best_wetw_sd_fp: ${exps_dir}/wetw.pt
+conf_fp: ${exps_dir}/config.yaml
+
+# embedding filepaths
+train_embedding_filepath: ${exps_dir}/train_emb.bin
+test_embedding_filepath: ${exps_dir}/test_emb.bin
