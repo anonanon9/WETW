@@ -1,5 +1,0 @@
-log_filepath: ""
-logger_name: exp_logger
-logging_level: INFO
-save_training_time: True
-datetime_format: "%Y-%m-%d-%H-%M-%S"
